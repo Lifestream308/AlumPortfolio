@@ -63,7 +63,7 @@ body {
 }
 .heroPicContainer {
     max-width: 20rem;
-    margin-right: 3rem;
+    margin-right: 4rem;
 }
 .heroPicContainer img {
     width: 100%;
@@ -71,7 +71,7 @@ body {
     filter: grayscale(50%);
 }
 .introduction {
-    max-width: 40rem;
+    max-width: 44rem;
     min-width: 30rem;
 }
 .introduction h1 { 
@@ -87,6 +87,41 @@ body {
     margin-right: 1rem;
     color: white;
 }
+.skillWrapper {
+    margin: 2rem 10% 2rem 10%;
+}
+.skillWrapper h2 {
+    font-size: 230%;
+    margin-bottom: 1rem;
+}
+.skillWrapper h3 {
+    font-size: 170%;
+    font-weight: normal;
+    margin-top: 0.3rem;
+    margin-bottom: 0;
+}
+.skillWrapper li {
+    line-height: 1.7rem;
+}
+.skillWrapper a {
+    font-size: 110%;
+    padding: .5rem;
+    background-color: rgb(114, 190, 176);
+    color: white;
+    border-radius: 4px;
+    border: none;
+    text-decoration: none;
+}
+.skillWrapper a:hover {
+    color: rgb(56, 137, 81);
+    transition: .2s;
+}
+.languageWrapper {
+    display: flex;
+}
+.experienceContainer {
+    margin: 0 2rem;
+}
 /* End of Custom Configurations */
 
 /* Margin / Padding Section */
@@ -95,6 +130,9 @@ body {
 }
 .marginRight1 {
     margin-right: 10%;
+}
+.marginRight2 {
+    margin-right: 3rem;
 }
 .margin1 {
     margin: 2rem;
@@ -113,6 +151,9 @@ body {
 }
 .padding2 {
     padding: 2rem 0rem;
+}
+.maxWidth1 {
+    max-width: 27rem;
 }
 
 
@@ -177,6 +218,18 @@ body {
     .heroPicContainer {
         margin: 0;
         max-width: 15rem;
+    }
+    .introduction {
+        min-width: 0;
+    }
+  }
+
+@media (max-width: 920px) {
+    .languageWrapper {
+      flex-direction: column;
+    }
+    .experienceContainer {
+        margin: 0;
     }
   }
 
