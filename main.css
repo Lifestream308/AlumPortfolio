@@ -201,7 +201,7 @@ body {
 }
 .dropDownContent {
     position: fixed;
-    height: 20rem;
+    height: 0rem;
     width: 0%;
     z-index: 1;
     right: 0;
@@ -226,6 +226,7 @@ body {
 }
 .show {
     width: 50%;
+    height: 20rem;
     border-left: 1px solid black;
 }
 
