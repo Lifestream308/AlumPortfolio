@@ -122,6 +122,22 @@ body {
 .experienceContainer {
     margin: 0 2rem;
 }
+.projectWrapper {
+    margin: 0rem 10% 0rem 10%;
+}
+.projectWrapper h2 {
+    font-size: 230%;
+    margin-bottom: 1rem;
+}
+.projectContainer  div{
+    width: 18rem;
+    height: 13rem;
+    background-color: lightgrey;
+}
+.footer {
+    text-align: center;
+    margin: 2.5rem 10% 0rem 10%;
+}
 /* End of Custom Configurations */
 
 /* Margin / Padding Section */
@@ -154,6 +170,9 @@ body {
 }
 .maxWidth1 {
     max-width: 27rem;
+}
+.maxWidth2 {
+    max-width: 80rem;
 }
 
 
