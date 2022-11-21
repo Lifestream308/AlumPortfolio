@@ -39,7 +39,11 @@ body {
 .initials {
     margin-right: 1rem;
 }
-.initials:hover {
+.initials a {
+    text-decoration: none;
+    color: white;
+}
+.initials a:hover {
     color: rgb(213, 212, 212);
 }
 .nav {
