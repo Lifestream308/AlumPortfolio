@@ -200,34 +200,35 @@ body {
     padding: 1.5rem;
 }
 .dropDownContent {
-    position: fixed;
+    position: static;
     height: 0rem;
-    width: 0%;
+    width: 80%;
     z-index: 1;
-    right: 0;
-    top: 1;
-    background-color: white;
-    padding-top: 3rem;
+    /* right: 0;
+    top: 1; */
+    /* background-color: white; */
+    margin: 0;
+    padding: 0;
     transition: 0.5s;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    border-radius: 1rem 0 0 1rem;
+    /* border-radius: 0rem 1rem 1rem 0rem; */
 }
 .dropDownContent a {
-    display: block; 
+    display: none;
     font-size: 180%; 
-    color: black;
+    color: white;
     text-decoration: none;
-    padding: 1rem 1rem 1rem 2rem;
-}
-.dropDownContent a:hover {
-    background-color: rgb(233, 233, 233);
+    padding: 1rem 1rem 1rem 10%;
     transition: 0.5s;
 }
+.dropDownContent a:hover {
+    color: rgb(199, 198, 198);
+    transition: 0.4s;
+}
 .show {
-    width: 50%;
-    height: 20rem;
-    border-left: 1px solid black;
+    height: 17rem;
+}
+.show a {
+    display: block;
 }
 
 
