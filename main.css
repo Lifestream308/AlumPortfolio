@@ -194,7 +194,7 @@ body {
     margin: 1rem;
 }
 .dropbtn {
-    font-size: 180%;
+    font-size: 200%;
     color: white;
     text-decoration: none;
     padding: 1.5rem;
@@ -214,7 +214,7 @@ body {
 }
 .dropDownContent a {
     display: none;
-    font-size: 180%; 
+    font-size: 150%;
     color: white;
     text-decoration: none;
     padding: 1rem 1rem 1rem 10%;
