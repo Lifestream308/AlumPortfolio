@@ -142,9 +142,12 @@ body {
     margin-bottom: .5rem;
 }
 .projectContainer  div{
-    width: 18rem;
-    height: 13rem;
-    background-color: lightgrey;
+    width: 21rem;
+}
+.projectContainer  img{
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
 }
 .footer {
     text-align: center;
