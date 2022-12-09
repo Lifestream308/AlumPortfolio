@@ -139,7 +139,7 @@ body {
     margin-bottom: 1rem;
 }
 .projectContainer {
-    margin-bottom: .5rem;
+    margin: 1rem 0;
 }
 .projectContainer  div{
     width: 21rem;
@@ -151,7 +151,7 @@ body {
 }
 .footer {
     text-align: center;
-    margin: 2.5rem 10% 0rem 10%;
+    margin: 2rem 10% 0rem 10%;
     height: 18rem;
 }
 .footer h1 {
